@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logoipsum · Receptes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="capcalera">
+    <a class="logo" href="#inici"><span class="logo-icona" aria-hidden="true">✿</span> Logoipsum</a>
+    <nav class="menu" aria-label="Navegació principal">
+      <ul>
+        <li><a class="actiu" href="#darreres">Latest recipes</a></li>
+        <li><a href="#populars">Most popular recipes</a></li>
+        <li><a href="#categories">Categories</a></li>
+      </ul>
+    </nav>
+    <span class="usuari" aria-hidden="true"></span>
+  </header>
+
+  <main id="inici">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <span class="etiqueta">Healthy</span>
+        <h1>10 Minute Magic <span>Orange Sauce</span></h1>
+        <a class="boto-vora" href="#">See recipe</a>
+      </div>
+      <div class="imatge hero-imatge" role="img" aria-label="Imatge de la recepta"></div>
+    </section>
+
+    <nav class="categories" id="categories" aria-label="Categories">
+      <span class="categories-titol">View by category:</span>
+      <ul>
+        <li><a href="#">Appetizers</a></li>
+        <li><a href="#">Beverages</a></li>
+        <li><a href="#">Desserts</a></li>
+        <li><a href="#">Healthy</a></li>
+      </ul>
+    </nav>
+
+   
+    <section class="contingut" id="darreres">
+      <h2>Latest recipes</h2>
+      <div class="graella dues">
+        <article class="targeta">
+          <div class="imatge" role="img" aria-label="Grandma's Butterscotch Pie"></div>
+          <h3>Grandma's Butterscotch PIE</h3>
+          <span class="etiqueta">Healthy</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada.</p>
+          <a class="boto-vora" href="#">See recipe</a>
+        </article>
+        <article class="targeta">
+          <div class="imatge" role="img" aria-label="10 Minute Magic Orange Sauce"></div>
+          <h3>10 Minute Magic Orange Sauce</h3>
+          <span class="etiqueta">Healthy</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat viverra diam, ac tempus est faucibus in. Sed cursus ante vel fermentum malesuada.</p>
+          <a class="boto-vora" href="#">See recipe</a>
+        </article>
+      </div>
+    </section>
+
+    
+    <section class="contingut">
+      <div class="newsletter">
+        <div>
+          <h2>Never miss a recipe</h2>
+          <p>Join thousands of Company subscribers and get our best recipes delivered each week!</p>
+        </div>
+        <form action="#" method="POST">
+          <label class="ocult" for="correu">Correu electrònic</label>
+          <input type="email" id="correu" name="email" placeholder="your email" required>
+          <button type="submit">Betle</button>
+        </form>
+      </div>
+    </section>
+
+   
+    <section class="contingut" id="populars">
+      <h2>Most popular recipes</h2>
+      <div class="graella dues">
+        <article class="targeta-gran">
+          <div class="imatge" role="img" aria-label="Grandma's Butterscotch Pie"></div>
+          <span class="etiqueta">Healthy</span>
+          <h3>Grandma's Butterscotch PIE</h3>
+        </article>
+        <article class="targeta-gran">
+          <div class="imatge" role="img" aria-label="10 Minute Magic Orange Sauce"></div>
+          <span class="etiqueta">Healthy</span>
+          <h3>10 Minute Magic Orange Sauce</h3>
+        </article>
+        <article class="targeta-gran">
+          <div class="imatge" role="img" aria-label="Perfect Avocado Toas"></div>
+          <span class="etiqueta">Bread / Sweet</span>
+          <h3>Perfect Avocado Toas For Breackfast</h3>
+        </article>
+        <article class="targeta-gran">
+          <div class="imatge" role="img" aria-label="Summer Berry Parfaid"></div>
+          <span class="etiqueta">Healthy</span>
+          <h3>Summer Berry Parfaid</h3>
+        </article>
+      </div>
+    </section>
+
+   
+    <aside class="autor">
+      <div class="avatar" role="img" aria-label="Foto de l'autor"></div>
+      <div class="autor-text">
+        <span class="etiqueta">About the Author</span>
+        <h2>Jhon Doe</h2>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor risus consequat, sit amet feugiat magna vulputate. Phasellus iaculis tellus augue, ut ultrices lacus efficitur a. Mauris a nibh erat. In sed massa sed erat consectetur convallis vel vitae felis. Vivamus in tempus est. Cras porta nisi sit amet leo dictum, non suscipit neque tincidunt.</p>
+      </div>
+    </aside>
+  </main>
+
+  
+  <footer class="peu">
+    <div class="peu-esquerra">
+      <a class="logo" href="#inici"><span class="logo-icona" aria-hidden="true"></span> Logoipsum</a>
+      <nav aria-label="Navegació del peu">
+        <ul>
+          <li><a class="actiu" href="#darreres">Latest recipes</a></li>
+          <li><a href="#populars">Most popular recipes</a></li>
+          <li><a href="#categories">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="xarxes" aria-label="Xarxes socials">
+      <li><a href="#" aria-label="Facebook">f</a></li>
+      <li><a href="#" aria-label="Instagram">◎</a></li>
+      <li><a href="#" aria-label="Twitter">t</a></li>
+      <li><a href="#" aria-label="TikTok">♪</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
